@@ -1,4 +1,14 @@
+A native Android personal assistant application built with Kotlin, Jetpack Compose, and Material 
 
+It combines on-device speech-to-text, text-to-speech, and a local intent parser with the Gemini API and a modular tool registry to execute user commands. 
+
+Key features include:   Voice & Agent Interface: Animated orb (TxOrb), live audio waveform, transcript view, activity status badges, and quick-action chips.   
+
+AI & Tool Execution: TxAgentCoordinator routing between GeminiApiService, LocalIntentParser, and ToolRegistry.   
+
+Productivity Suite: Room database (AppDatabase) storing conversations, tasks, notes, and scheduled reminders.   
+
+System Integration: Background reminder scheduling with reboot persistence (ReminderScheduler, ReminderBroadcastReceiver, BootReceiver) and an installed-app launcher (AppLauncherManager). 
 
 # Run and deploy
 
