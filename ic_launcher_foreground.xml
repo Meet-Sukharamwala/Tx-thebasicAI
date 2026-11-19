@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer glowing tech ring -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M54,28 A26,26 0 1 1 53.9,28" />
+    <path
+        android:strokeColor="#00B0FF"
+        android:strokeWidth="1.2"
+        android:pathData="M54,22 A32,32 0 1 1 53.9,22" />
+    <!-- Digital nodes -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,20 A2,2 0 1 1 53.9,20 Z M54,86 A2,2 0 1 1 53.9,86 Z M20,54 A2,2 0 1 1 19.9,54 Z M86,54 A2,2 0 1 1 85.9,54 Z" />
+    <!-- 'T' in Tx -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39,43 h14 v4 h-5 v18 h-4 v-18 h-5 z" />
+    <!-- 'x' in Tx -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M57,47 l4,0 l4,8 l4,-8 l4,0 l-6,10 l6,8 l-4,0 l-4,-8 l-4,8 l-4,0 l6,-8 z" />
+</vector>

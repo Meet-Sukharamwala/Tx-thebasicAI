@@ -1,0 +1,6 @@
+{
+  "name": "Tx - AI Voice Assistant",
+  "description": "Futuristic personal AI voice assistant with voice control, smart tools, reminders, notes, and tasks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
